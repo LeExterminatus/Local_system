@@ -1,0 +1,57 @@
+table
+{
+    margin-bottom: 25px;
+    border: 5px solid black;
+}
+td
+{
+	border: 1px solid black;
+}
+.action_panel
+{
+    background: #94b6f3;
+    font-weight: bold;
+    font-family: Arial;
+}
+.pageeditDV
+{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.pageeditDV div
+{
+	padding: 5px;
+	background: aliceblue;
+}
+button
+{
+	font-size: 18px;
+    height: 25px;
+    background: white;
+    border: none;
+    box-shadow: 0px 0px 1px 2px #bf1313;
+    margin-bottom: 7px;
+    margin-right: 5px;
+    border-radius: 0px 0px 5px 0px;
+    font-family: auto;
+    white-space: nowrap;
+}
+button:hover
+{
+	background: brown;
+    color: white;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button 
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] 
+{
+  -moz-appearance: textfield;
+}

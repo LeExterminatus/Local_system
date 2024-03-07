@@ -1,0 +1,64 @@
+[24-Jul-2023 15:35:25 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23503]: Foreign key violation: 7 ОШИБКА:  INSERT или UPDATE в таблице "warehouses_managers" нарушает ограничение внешнего ключа "manager_ref"
+DETAIL:  Ключ (manager)=(333) отсутствует в таблице "users". in C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddNewWarehouseManager.php:21
+Stack trace:
+#0 C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddNewWarehouseManager.php(21): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\IVC\CoreX.php(782): UserInfo->DefineConstr()
+#2 C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddNewWarehouseManager.php(39): ExecuteComand->__construct()
+#3 {main}
+  thrown in C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddNewWarehouseManager.php on line 21
+[24-Jul-2023 15:35:34 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23503]: Foreign key violation: 7 ОШИБКА:  INSERT или UPDATE в таблице "warehouses_managers" нарушает ограничение внешнего ключа "manager_ref"
+DETAIL:  Ключ (manager)=(3) отсутствует в таблице "users". in C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddNewWarehouseManager.php:21
+Stack trace:
+#0 C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddNewWarehouseManager.php(21): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\IVC\CoreX.php(782): UserInfo->DefineConstr()
+#2 C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddNewWarehouseManager.php(39): ExecuteComand->__construct()
+#3 {main}
+  thrown in C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddNewWarehouseManager.php on line 21
+[24-Jul-2023 15:35:37 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23503]: Foreign key violation: 7 ОШИБКА:  INSERT или UPDATE в таблице "warehouses_managers" нарушает ограничение внешнего ключа "manager_ref"
+DETAIL:  Ключ (manager)=(3) отсутствует в таблице "users". in C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddNewWarehouseManager.php:21
+Stack trace:
+#0 C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddNewWarehouseManager.php(21): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\IVC\CoreX.php(782): UserInfo->DefineConstr()
+#2 C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddNewWarehouseManager.php(39): ExecuteComand->__construct()
+#3 {main}
+  thrown in C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddNewWarehouseManager.php on line 21
+[24-Jul-2023 15:35:44 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23503]: Foreign key violation: 7 ОШИБКА:  INSERT или UPDATE в таблице "warehouses_managers" нарушает ограничение внешнего ключа "manager_ref"
+DETAIL:  Ключ (manager)=(4) отсутствует в таблице "users". in C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddNewWarehouseManager.php:21
+Stack trace:
+#0 C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddNewWarehouseManager.php(21): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\IVC\CoreX.php(782): UserInfo->DefineConstr()
+#2 C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddNewWarehouseManager.php(39): ExecuteComand->__construct()
+#3 {main}
+  thrown in C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddNewWarehouseManager.php on line 21
+[24-Jul-2023 15:35:51 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23503]: Foreign key violation: 7 ОШИБКА:  INSERT или UPDATE в таблице "warehouses_managers" нарушает ограничение внешнего ключа "manager_ref"
+DETAIL:  Ключ (manager)=(4) отсутствует в таблице "users". in C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddNewWarehouseManager.php:21
+Stack trace:
+#0 C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddNewWarehouseManager.php(21): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\IVC\CoreX.php(782): UserInfo->DefineConstr()
+#2 C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddNewWarehouseManager.php(39): ExecuteComand->__construct()
+#3 {main}
+  thrown in C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddNewWarehouseManager.php on line 21
+[26-Jul-2023 10:16:13 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23503]: Foreign key violation: 7 ОШИБКА:  INSERT или UPDATE в таблице "categories_in_warehouses" нарушает ограничение внешнего ключа "warehouse_id_ref"
+DETAIL:  Ключ (warehouse)=(3) отсутствует в таблице "warehouses". in C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddCategoryInWarehouse.php:21
+Stack trace:
+#0 C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddCategoryInWarehouse.php(21): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\IVC\CoreX.php(782): UserInfo->DefineConstr()
+#2 C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddCategoryInWarehouse.php(39): ExecuteComand->__construct()
+#3 {main}
+  thrown in C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddCategoryInWarehouse.php on line 21
+[26-Jul-2023 10:16:28 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23503]: Foreign key violation: 7 ОШИБКА:  INSERT или UPDATE в таблице "categories_in_warehouses" нарушает ограничение внешнего ключа "warehouse_id_ref"
+DETAIL:  Ключ (warehouse)=(3) отсутствует в таблице "warehouses". in C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddCategoryInWarehouse.php:21
+Stack trace:
+#0 C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddCategoryInWarehouse.php(21): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\IVC\CoreX.php(782): UserInfo->DefineConstr()
+#2 C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddCategoryInWarehouse.php(39): ExecuteComand->__construct()
+#3 {main}
+  thrown in C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddCategoryInWarehouse.php on line 21
+[26-Jul-2023 10:18:07 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23503]: Foreign key violation: 7 ОШИБКА:  INSERT или UPDATE в таблице "categories_in_warehouses" нарушает ограничение внешнего ключа "warehouse_id_ref"
+DETAIL:  Ключ (warehouse)=(3) отсутствует в таблице "warehouses". in C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddCategoryInWarehouse.php:21
+Stack trace:
+#0 C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddCategoryInWarehouse.php(21): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\IVC\CoreX.php(782): UserInfo->DefineConstr()
+#2 C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddCategoryInWarehouse.php(39): ExecuteComand->__construct()
+#3 {main}
+  thrown in C:\inetpub\wwwroot\IVC\Warehouses\AdmPanel\ExecuteScripts\AddCategoryInWarehouse.php on line 21

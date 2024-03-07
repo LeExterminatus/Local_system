@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Install LocalSystem</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src='Ajax/Libs/JQuery/jquery-3.5.1.min.js'></script>
+	<script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+	<p>Установщик LocalSystem</p>
+	<div class="stage_container">
+		<div class="stage_one">
+				Этап 1 - Проверка возможности установки и первичная конфигурация <br>
+				Ваша версия PHP <a id='php_version'>1</a> <br>
+			<div class="stg_one_one hidden_elem">
+				Давайте проверим возможность подключения к базе данных postgre. <br>
+				Сервер (по умолчанию localhost) <input type="" name="srv" value="localhost"><br>
+				База данных (по умолчанию postgres) <input type="" name="db" value="postgres"><br>
+				Пользователь <input type="" name="usr" value="postgres"><br>
+				Пароль <input type="" name="pwd" value="genesIs371zz"><br>
+				Порт (по умолчанию 5432) <input type="" name="port" value="5432"><br>
+				<input type="button" name="" value="Проверить" onclick="CheckPGConnection()">
+				<a id="stg_one_one_res"></a>
+			</div>
+			<div class="stg_one_two hidden_elem">
+				<input type="button" name="" value='Сохранить и продолжить' onclick="SaveStageOne()"><input type="button" name="" value='Отмена' onclick="CancelCheckPGConnection()">
+			</div>
+		</div>
+		<div class="stage_two hidden_elem">
+				Этап 2 - Выбор модулей и их настройка <br>
+				<input type="checkbox" id='base_m' checked disabled>Базовый модуль<br>
+				<input type="checkbox" id='wh_m' name="warehouses">Складской учёт<br>
+				<input type="checkbox" id='tsk_m' name="tasks" onchange="CheckAndConfigureModuls()">Система задач<br>
+			<div class="stg_two_one hidden_elem">
+				<div id='tsk_m_mod1' class='hidden_elem'>	
+					Для модификации "Система задач" существует возможность подключения Telegram бота к группе.<br>
+					Для подключения введите:<br>
+					Токен бота <input type="text" name="bot_id"><br>
+					Чат ID группы<input type="text" name="chat_id"><br>
+					<a id="stg_two_one_tsk_mod1_res"></a><br>
+					<input type="button" name="" value="Подключить" id="tg_btn" onclick="CheckTGConn()"><br>
+				</div>
+			</div>
+			<div class="base hidden_elem">
+				<div class='circle'></div>Установка базового модуля
+				
+			</div>
+			<div class="tsk hidden_elem">
+				<div class='circle'></div>Установка модуля системы задач
+				
+			</div>
+			<div class="wrh hidden_elem">
+				<div class='circle'></div>Установка модуля складского учёта
+			</div>
+			<input type="button" value="Установить" id="install_btn" onclick="InstallModules()">	
+		</div>
+		<div class="stage_three hidden_elem">
+			Этап 3 - Установка завершена <br>
+			Модули успешно установлены!
+			<a href='http://localhost/IVC/IVC_ADM/admmini.php' target="_blank">Админ панель</a><br>
+			Адрес "/IVC_ADM/admmini.php" относительно сайта.<br>
+			В админ панели уровень доступа определяет видимость страницы юзерам (0 - доступна всем, 1 - только авторизованным, 2 - только тем, кому прописан доступ)<br>
+			Все необходимые материалы, в том числе диаграммы баз данных, размещены в папке "Sourse".<br>
+			Удачи в использовании и разработке!<br> 
+			by LeExterminatus
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,507 @@
+.loadbar
+{
+    z-index: 9999;
+}
+.product_grid_container th
+{
+    text-align: left;
+}
+.main_container
+{
+	overflow: auto;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+.menu
+{
+    background: #e1e1e1;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    border-right: 1px solid black;
+    height: 5%;
+}
+
+.menu button
+{
+	
+}
+.menu button:hover
+{
+	background: black;
+    color: white;
+}
+.activ_tab_indicator
+{
+    background: #ffa509;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button 
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] 
+{
+  -moz-appearance: textfield;
+}
+.add_contragent
+{
+    z-index: 100;
+}
+.add_contragent_form
+{
+    left: 38%;
+    right: 38%;
+}
+.form_container
+{
+    border: 2px solid #021a2f;
+    box-shadow: 0px 0px 9px 0px #051202d4;
+    display: flex;
+    position: absolute;
+    background: lightgray;
+    top: 30%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.form_container button
+{
+    border: 1px solid gray;
+    color: black;
+    background: #f7b902;
+}
+.form_container button:hover
+{
+    color: white;
+    background: black;
+}
+.form_name_head
+{
+    text-align: center;
+    background: black;
+    color: white;
+    font-weight: bold;
+}
+.form_bottom_btn
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.form_bottom_btn button
+{
+    height: 30px;
+    margin-top: 5%;
+    width: 20%;
+}
+.form_bottom_btn button:hover
+{
+    color: white;
+    background: black;
+}
+.form_body_container
+{
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    height: -webkit-fill-available;
+    height: -moz-available;
+    justify-content: space-between;
+}
+.form_body_item_in_container
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.block_content
+{
+    background: #0000008f;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+}
+.select_contragent
+{
+    z-index: 20;
+}
+.select_contragent_form
+{
+    bottom: 25%;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+}
+.contragent_items
+{
+    padding-top: 5px;
+    padding-left: 10px;
+    background: ghostwhite;
+    border: 1px solid black;
+    min-height: 30px;
+    height: -webkit-fill-available;
+    height: -moz-available;
+    font-family: Arial;
+    cursor:pointer;
+}
+.focusElem
+{
+    font-weight: bold;
+    color: white;
+    background: black;
+}
+.search_line_in_form
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-between;
+    height: 40px;
+    border-bottom: 5px solid;
+}
+.search_line_in_form input[type=text]
+{
+    width: -webkit-fill-available;
+    width: -moz-available;
+}
+button:disabled, input[type=button]:disabled, button:disabled:hover
+{
+    border: 2px solid gray;
+    background: gray;
+    color: lightgray;
+}
+.contragent_info
+{
+    background: linear-gradient(180deg, #e1e1e1, transparent);
+    padding: 25px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.contragent_info a
+{
+    font-weight: bold;
+}
+.contragent_info div
+{
+    line-height: 35px;
+    font-size: 1.1em;
+    
+}
+#select_contragent_form, #select_product_form, #income_recored_btn, #select_product_form_expence, #expence_recored_btn
+{
+    font-family: Arial;
+    height: 35px;
+    font-size: 14px;
+    border: 1px solid gray;
+    color: black;
+    background: #ffa509;
+}
+#select_contragent_form:hover, #select_product_form:hover, #income_recored_btn:hover, #select_product_form_expence:hover, #expence_recored_btn:hover
+{
+    color: white;
+    background: black;
+}
+.income_btn_panel
+{
+    text-align: center;
+}
+.product_info
+{
+    max-height: 90%;
+    gap: 10px;
+    padding: 0px 25px 25px 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+.cntr_name
+{
+    font-weight: bold;
+}
+.income_container, .balances_container, .expense_container, .move_container, .booking_container 
+{
+    
+}
+.income_container, .balances_container, .expense_container
+{
+    height: 86%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.product_grid_container
+{
+    overflow: auto;
+    height: 85%;
+}
+.product_grid_container table
+{
+    width: 100%;
+}
+.product_grid_container thead
+{
+    background: white;
+    top: 0;
+    position: sticky;
+}
+.product_grid_container table input[type=number]
+{
+    border: 1px dashed gray;
+}
+.select_product_form, .select_product_form_expence
+{
+    top: 7%;
+    left: 7%;
+    right: 7%;
+    bottom: 7%;
+}
+.add_product
+{
+    z-index: 50;
+}
+.add_product_form
+{
+    left: 35%;
+    right: 35%;
+    top: 30%;
+}
+.select_product
+{
+    z-index: 20;
+}
+.form_price_n_quntity
+{
+    text-align: center;
+    line-height: 35px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.prod_kod_frm
+{
+    display: contents;
+}
+#new_prod_name
+{
+    width: 96%;
+    height: 50px;
+}
+.product_items
+{
+    cursor: pointer;
+    border: 1px solid #b7b4b4;
+    line-height: 20px;
+    padding: 5px;
+}
+.balances_info
+{
+    height: 90%;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+.balances_warehouse_info
+{
+    padding: 25px;
+}
+.balances_product_info
+{
+    padding: 0px 25px 25px 25px;
+    height: 90%;
+}
+.balances_body_container
+{
+    height: 100%;
+}
+.balances_list
+{
+    overflow: auto;
+    height: 100%;
+}
+.balances_list table thead
+{
+    text-align: left;
+    top: 0;
+    background: white;
+    position: sticky;
+}
+.warehouse_form_expence
+{
+    padding: 25px;
+}
+.expence_info, .expence_composition
+{
+    padding: 0px 25px 25px 25px;
+}
+.balances_warehouse_info, .warehouse_form_expence, .warehouses_incomelist, .warehouses_expencelist
+{
+    background: linear-gradient(180deg, #e1e1e1, transparent);
+}
+.expence_btn_panel
+{
+    text-align: center;
+}
+.product_list_expence tr, .product_grid_container_expence tr
+{
+    border: 1px dashed white;
+    cursor: pointer;
+}
+.product_list_expence td, .product_grid_container_expence td
+{
+    border: 1px solid white;
+}
+.product_list_expence table, .product_grid_container_expence table
+{
+    width: -webkit-fill-available;
+    width: -moz-available;
+    border-collapse: collapse;
+}
+.product_list_expence th, .product_grid_container_expence th
+{
+    text-align: left;
+    top: 0;
+    background: white;
+    position: sticky;
+    cursor: auto;
+}
+.balances_list table
+{
+    width: -webkit-fill-available;
+    width: -moz-available;
+}
+.balances_list tr
+{
+    background: lightgray;
+}
+
+.product_items_listelem
+{
+    cursor: pointer;
+    border: 1px solid #b7b4b4;
+    line-height: 20px;
+    padding: 5px;
+     font-size: 16px;
+    /*font-weight: bold;*/
+    cursor: auto;
+}
+.warehouses_incomelist
+{
+    padding: 25px;
+}
+.income_list_container
+{
+    height: 90%;
+}
+.IncomeList_info
+{
+    height: 100%;
+}
+.IncomeList_info_container
+{
+    background: #ebebeb;
+    height: 90%;
+    overflow: auto;
+}
+.ListNonBold
+{
+    color: #f30000;
+    font-weight: bold;
+}
+/*.IncomeList_info_container .product_items .ListNonBold, .IncomeList_info_container .product_items table
+{
+    font-weight: normal;
+}*/
+.IncomeList_info_container .product_items_listelem table
+{
+    border-collapse: collapse;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    background: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.IncomeList_info_container .product_items_listelem table th, .IncomeList_info_container .product_items_listelem table td
+{
+    text-align: left;
+    border: 1px solid gray;
+}
+.balances_info button, .IncomeList_info button, .expenceList_info button
+{
+    font-family: Arial;
+    height: 25px;
+    font-size: 14px;
+    border: 1px solid gray;
+    color: black;
+    background: #ffa509;
+    margin: 5px;
+}
+.balances_info button:hover,.IncomeList_info button:hover, .expenceList_info button:hover
+{
+    color: white;
+    background: black;
+}
+
+.warehouses_expencelist
+{
+    padding: 25px;
+}
+.expence_list_container
+{
+    height: 90%;
+}
+.expenceList_info
+{
+    height: 100%;
+}
+.expenceList_info_container
+{
+    background: #ebebeb;
+    height: 90%;
+    overflow: auto;
+}
+.expenceList_info_container .product_items_listelem table
+{
+    border-collapse: collapse;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    background: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.expenceList_info_container .product_items_listelem table th, .expenceList_info_container .product_items_listelem table td
+{
+    text-align: left;
+    border: 1px solid gray;
+}

@@ -1,0 +1,41 @@
+.hidden_elem
+{
+	display: none!important;
+}
+p
+{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+.error_stl
+{
+	background: red;
+	color: white;
+}
+.check_stl
+{
+	background: green;
+	color: white;
+}
+.circle
+{
+	background:gray;
+	display:inline-block;
+	height:25px;
+	width:25px;
+	border-radius:15px;
+}
+.green
+{
+	background: green!important;
+}
+.red
+{
+	background: red!important;
+}
+div.base, div.tsk, div.wrh
+{
+	display: flex;
+    align-items: center;
+}
