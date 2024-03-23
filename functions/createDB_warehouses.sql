@@ -145,6 +145,7 @@ CREATE TABLE IF NOT EXISTS moving
   released INT NOT NULL,
   received INT NOT NULL,
   received_warehouse INT NOT NULL,
+  accepted int not null,
   CONSTRAINT mov_usr
     FOREIGN KEY (released)
     REFERENCES public.users (iduser)
